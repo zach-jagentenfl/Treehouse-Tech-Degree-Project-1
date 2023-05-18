@@ -114,7 +114,8 @@ header .interior-page-heading-title {
   margin: 1em;
   padding: 20px 40px 40px;
   max-width: 500px;
-  width:33%; /* Set this to an absolute value for Desktop to achieve equal widths between divs with the 'card' class */
+  width:auto; 
+  flex: 1 1 0px; /* I wanted the flex boxes to be arranged side-by-side, but always be the same width. I found a code snippet on Stack Overflow that explained to use the Flex CSS property - https://stackoverflow.com/questions/29503227/how-to-make-flexbox-items-the-same-size  */
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
